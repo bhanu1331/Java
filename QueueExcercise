@@ -1,0 +1,18 @@
+package QueueExample;
+
+import java.util.*;
+
+
+public class QueueExcercise {
+    public static void main(String[] args) {
+        Queue<String> queuedCustomers = new LinkedList<>();
+        queuedCustomers.add("1234");
+        queuedCustomers.add("3456");
+        queuedCustomers.add("765");
+
+        while (!queuedCustomers.isEmpty()) {
+            System.out.println("customer"+queuedCustomers.poll()+" is getting helped.");
+        }
+    }
+
+}
