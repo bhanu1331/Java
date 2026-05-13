@@ -1,4 +1,4 @@
-package org.example;
+package Mapexample;
 
 public class Person {
     String name;

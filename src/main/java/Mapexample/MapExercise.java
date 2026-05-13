@@ -1,4 +1,4 @@
-package org.example;
+package Mapexample;
 
 import java.util.*;
 
